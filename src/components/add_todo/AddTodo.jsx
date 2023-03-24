@@ -4,8 +4,8 @@ import './AddTodo.scss'
 export default function AddTodo() {
   return (
     <div className="addTodo">
-        <input className="addTod__input" type="text" placeholder="Add a todo" />
-        <button className="addTod__button">Add</button>
+        <input className="addTodo__input" type="text" placeholder="Add a todo" />
+        <button className="addTodo__button">+</button>
     </div>
   )
 }

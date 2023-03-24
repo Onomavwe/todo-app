@@ -1,8 +1,28 @@
-// .addTodo {
-//     $__input {
+.addTodo {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 
-//     },
-//     &__button {
+    &__input {
+        padding: 15px;
+        width: 80%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 20px;
+        outline: none;
+    }
 
-//     }
-// }
+    &__button {
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #6f1ce5;
+        color: #fff;
+        font-size: 35px;
+    }
+
+    &__button:hover {
+        background-color: #5f1ce2;
+    }
+}
