@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    &__field {
+        padding: 10px;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    &__button {
+        background-color: darkblue;
+        border-radius: 5px;
+        padding: 15px;
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+    &__button:hover {
+        background-color: #5f1ce2;
+    }
+}
